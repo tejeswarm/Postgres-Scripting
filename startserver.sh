@@ -13,6 +13,7 @@ stop()
 
 BuildPrimary()
 {
+  initdb -A password --pwfile="/home/temuppar/work/pg/pwd"  -U sa -D$PGDATA --noclean
 }
 
 BuildSecondary()
