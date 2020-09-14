@@ -1,6 +1,7 @@
 #!/bin/sh
 
 VERSION=$1
+export PATH=$PATH:PGINSTALL.11
 
 start()
 {
